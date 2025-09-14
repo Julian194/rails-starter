@@ -79,9 +79,12 @@ Then initialize shadcn/ui:
 npx shadcn@latest init
 ```
 
-### 9. Add Utilities (Optional)
+### 9. Add Utilities & Rename Project (Optional)
 ```bash
 bundle add rename
+
+# Rename the project to your desired name
+rails g rename:into YourNewAppName
 ```
 
 ## Project Structure
