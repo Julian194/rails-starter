@@ -87,6 +87,26 @@ bundle add rename
 rails g rename:into YourNewAppName
 ```
 
+### 10. Initialize Fresh Git Repository (Recommended after renaming)
+```bash
+# Remove the existing git history to start fresh
+rm -rf .git
+
+# Initialize a new git repository
+git init
+
+# Add all files to the new repository
+git add .
+
+# Create your first commit
+git commit -m "Initial commit: Rails starter with Inertia.js, React, and AI capabilities"
+
+# Optional: Connect to your remote repository
+# git remote add origin your-repository-url
+# git branch -M main
+# git push -u origin main
+```
+
 ## Project Structure
 
 ```
