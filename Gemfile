@@ -58,3 +58,7 @@ gem "inertia_rails", "~> 3.11"
 gem "vite_rails", "~> 3.0"
 
 gem "ruby_llm", "~> 1.8"
+
+gem "ruby_llm-template", "~> 0.1.6"
+
+gem "ruby_llm-schema", "~> 0.2.1"
