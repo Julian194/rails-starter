@@ -62,3 +62,5 @@ gem "ruby_llm", "~> 1.8"
 gem "ruby_llm-template", "~> 0.1.6"
 
 gem "ruby_llm-schema", "~> 0.2.1"
+
+gem 'rename'
