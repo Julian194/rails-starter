@@ -56,3 +56,5 @@ end
 gem "inertia_rails", "~> 3.11"
 
 gem "vite_rails", "~> 3.0"
+
+gem "ruby_llm", "~> 1.8"
